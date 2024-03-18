@@ -1,0 +1,37 @@
+.link {
+  color: #c8b6b6 !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler {
+  color: white !important;
+}
+.nav-link {
+  color: black !important;
+}
+
+body {
+  margin-top: 20px;
+  background: #eee;
+}
+.ui-w-40 {
+  width: 40px !important;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.08);
+}
+
+.ui-product-color {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0.144em;
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 10rem;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  vertical-align: middle;
+}
