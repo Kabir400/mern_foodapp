@@ -9,7 +9,7 @@ This is code is inspired from **End to End youtube channel** with some **major m
 ## What Do I Change ?
 
 1. In the original code has **major draw back in authentication** , anyone one in the web can **run script** like `localStorage.setItem("authToken", "random_string") `
-   this and he/she can **easily login to your application**.I solve this issue by **checking the token is a valid token or not from the backend** , and sending response to the frontend and from frontend i handle the global user variable defined by context api , and authenticate user form frontend.
+   this and he/she can **easily login to your application**.I solve this issue by **checking the token is a valid token or not from the backend** , and sending response to the frontend  and authenticate user form frontend.
 
 2. **Make this code more organized** by dividing the into multiple components and making the state global useing context api.
 3. I the original code if you **login to your account from different device you can't see your orders or the items you have stored inside your cart**. But in this case **I stored them in the data base for specific user so you can see your orders and carts even if are login from a different device.**
